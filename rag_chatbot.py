@@ -11,7 +11,7 @@ from langchain_community.document_loaders import TextLoader
 from langchain_community.chat_models import ChatOpenAI
 
 # Api key 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "api key"
 
 # Loading docs
 loader = TextLoader("docs/doc1.txt", encoding='utf-8')
